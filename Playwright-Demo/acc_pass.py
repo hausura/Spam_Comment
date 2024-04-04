@@ -1,8 +1,8 @@
 ## Facebook info
-ACCOUNT = '' # your account
-PASS = ''     # your password
+ACCOUNT = 'hanampy@gmail.com' # your account
+PASS = 'raepgs'     # your password
 
-USER_DATA_DIR = '' # user data directory for chrome
+USER_DATA_DIR = '/media/nam/OS WIN/Users/Nam/AppData/Local/Google/Chrome/User Data/' # user data directory for chrome
 ## C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\
 
 ## Set up database

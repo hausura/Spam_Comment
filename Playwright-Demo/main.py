@@ -59,7 +59,7 @@ def block(route):
 def show_all_comments(page):
     try:
         #page.get_by_label("Viết bình luận", exact=False).click()
-        page.locator("//div[@class='x6s0dn4 x78zum5 xdj266r x11i5rnm xat24cr x1mh8g0r xe0p6wg']").click(timeout=10000)
+        page.locator("//div[@class='x9f619 x1n2onr6 x1ja2u2z xt0psk2 xuxw1ft']").click(timeout=10000)
         page.wait_for_timeout(3000)
         page.get_by_role('menuitem').last.click()
         page.wait_for_timeout(3000)
