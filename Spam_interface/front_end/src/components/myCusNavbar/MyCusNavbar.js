@@ -3,11 +3,11 @@ import { useState } from "react";
 import logo from "../../assets/my-icon-M.png";
 import { NavDropdown } from "react-bootstrap";
 import "./MyCusNavbar.css";
+import YoutubeEmbed from "../cmt/EmmbedLink";
 
 const MyCusNavbar = () => {
   const [videoId, setLinkVideo] = useState("");
   const [embedUrl, setEmbedUrl] = useState("");
-  const [comments, setComments] = useState([]);
   const [selectedCheckbox, setSelectedCheckbox] = useState(1);
 
   const handleSubmit = async (e) => {
@@ -127,6 +127,11 @@ const MyCusNavbar = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
+          <YoutubeEmbed
+            style={{ display: "none" }}
+            selectedCheckbox={selectedCheckbox}
+            videoId={videoId}
+          />
         </div>
       )}
     </div>
