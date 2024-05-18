@@ -12,7 +12,7 @@ function YoutubeEmbed() {
   const [results, setResults] = useState([]);
   const [results1, setResults1] = useState([]);
   const [selectedCheckbox, setSelectedCheckbox] = useState(2);
-  const API_KEY = "AIzaSyCQWFFYxyeYtvgONwlc73aRg9WLz46RFgU";
+  const API_KEY = "AIzaSyCl0TolqYP5LTHb1YHq9m1omplyIuE-03I";
 
   const handleGetComments = async () => {
     let videoId = localStorage.getItem("videoId");
