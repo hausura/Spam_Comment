@@ -8,10 +8,7 @@ from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import string
-from sklearn.ensemble import VotingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.metrics import accuracy_score
 
 import os 
@@ -21,7 +18,7 @@ import os
 
 
 
-#nltk.download('stopwords')
+nltk.download('stopwords')
 
 
 # Tiền xử lí

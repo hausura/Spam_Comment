@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from back_end.app.helper import helper;
-from back_end.app.ensemble import predict_value;
+from helper import helper;
+from ensemble import predict_value;
 
 app = FastAPI()
 
