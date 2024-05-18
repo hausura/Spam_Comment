@@ -14,6 +14,8 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
+import os 
+
 # Lưu mô hình
 #joblib.dump(soft_voting_clf, 'ensemble_model.pkl')
 
@@ -86,7 +88,7 @@ def loadData_new(list_string):
 # quan trọng
 
 def loadData():
-    data_path='D:\\Projects\\Spam\\Spam_Comment\\Playwright-Demo\\train_data\\'
+    data_path= os.path.join(os.path.dirname(__file__), '../../Playwright-Demo/train_data/')
     data1 = pd.read_csv(data_path+'Youtube01-Psy.csv')
     data2 = pd.read_csv(data_path+'Youtube02-KatyPerry.csv')
     data3 = pd.read_csv(data_path+'Youtube03-LMFAO.csv')

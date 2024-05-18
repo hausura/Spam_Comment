@@ -5,13 +5,12 @@ import tensorflow as tf
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
-
+import os 
 
 
 def svm_model(data):
     # Read the dataset
-    data_path='D:\\Projects\\Spam\\Spam_Comment\\Playwright-Demo\\train_data\\'
+    data_path= os.path.join(os.path.dirname(__file__), '../../Playwright-Demo/train_data/')
     data1 = pd.read_csv(data_path+'Youtube01-Psy.csv')
     data2 = pd.read_csv(data_path+'Youtube02-KatyPerry.csv')
     data3 = pd.read_csv(data_path+'Youtube03-LMFAO.csv')

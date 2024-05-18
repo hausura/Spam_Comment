@@ -1,13 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 
 from helper import helper;
 from ensemble import predict_value;
 
 # from keras.utils import np_utils
-from svm_model import svm_model  # Import hàm svm_model từ file svm_model.py
+# from svm_model import svm_model  # Import hàm svm_model từ file svm_model.py
 
 
 app = FastAPI()
