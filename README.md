@@ -55,12 +55,13 @@ uvicorn main:app –reload
 <img  src='https://github.com/hausura/show_read_me/blob/main/Screenshot%202024-05-19%20122730.png'>
 </img>
 </p>
-### Cách 2: Sử dụng Docker
 
+###  Cách 2: Sử dụng Docker
+- Tới folder Spam_interface
 ```
 cd Spam_interface
 ```
-Chạy lệnh
+ - Chạy lệnh
 ```
 docker-compose up --build
 ```
