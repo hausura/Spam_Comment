@@ -63,9 +63,12 @@ Giao diện ứng dụng khi khởi động
 
 
 ### 4.Hiển thị comments và lọc
- - Dựa trên kết quả của mô hình được hiển thị dưới mỗi bình luận, các bình luận được cho là spam sẽ bị làm mờ. 
+ - Dựa trên kết quả của mô hình được hiển thị dưới mỗi bình luận, các bình luận được cho là spam sẽ bị làm mờ.
+   
  ![image](https://github.com/hausura/show_read_me/blob/main/spam%202.png)
                                       Kết quả dự đoán của mô hình đã chọn 
+
+                                      
  - Người dùng có thể sử dụng mô hình đã lựa chọn để kiểm tra spam bằng cách thêm bình luận vào phần “Add a comment…”, sau đó nhấn “Comment”. Ứng dụng sẽ nhận bình luận và trả về kết quả dự đoán dựa trên mô hình dự đoán mà người dùng đã lựa chọn trước đó. 
  ![image](https://github.com/hausura/show_read_me/blob/main/spam3.png)
                                       Kết quả dự đoán của mô hình cho bình luận của người dùng
