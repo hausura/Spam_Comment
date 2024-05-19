@@ -1,6 +1,6 @@
 ﻿# Spam_Comment
 ## Introduction
-- Môn: **DATA MININING** 
+- Môn: **DATA MINING** 
 - Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
 - Trường: [Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội](http://hus.vnu.edu.vn/)
 
@@ -61,10 +61,8 @@ Giao diện ứng dụng khi khởi động
 
 ### 3.Nhúng ID Youtube
 - ID được lấy từ đường dẫn chính của Video trên nền tảng Youtube, nhập vào trường nhập liệu, lựa chọn mô hình muốn sử dụng, sau đó nhấn “Embed Video”. Video sẽ được nhúng và hiển thị tại giao diện ứng dụng cùng các bình luận phía dưới.
- <p align="center">
-![image](https://github.com/hausura/show_read_me/blob/main/spam%201.5.png)
-![image](https://github.com/hausura/show_read_me/blob/main/spam1.png)
-</p>
+<img align="center" src='https://github.com/hausura/show_read_me/blob/main/spam%201.5.png'> </img>
+<img align="center" src='https://github.com/hausura/show_read_me/blob/main/spam1.png'> </img>
 
 ### 4.Hiển thị comments và lọc
  - Dựa trên kết quả của mô hình được hiển thị dưới mỗi bình luận, các bình luận được cho là spam sẽ bị làm mờ.
