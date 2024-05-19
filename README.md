@@ -1,7 +1,4 @@
 ﻿# Spam_Comment
-
- ![image](https://github.com/hausura/show_read_me/blob/main/Dicom.png)
-
 ## Introduction
 - Môn: **Parallel Computing** 
 - Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
