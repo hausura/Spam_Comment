@@ -1,6 +1,6 @@
 ﻿# Spam_Comment
 ## Introduction
-- Môn: **Parallel Computing** 
+- Môn: **DATA MININING** 
 - Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
 - Trường: [Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội](http://hus.vnu.edu.vn/)
 
