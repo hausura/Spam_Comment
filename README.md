@@ -51,6 +51,10 @@ cd “./backend”
 ```
 uvicorn main:app –reload
 ```
+ <p align="center">
+<img  src='https://github.com/hausura/show_read_me/blob/main/Screenshot%202024-05-19%20122730.png'>
+</img>
+</p>
 ### Cách 2: Sử dụng Docker
 ```
 cd Spam_interface
