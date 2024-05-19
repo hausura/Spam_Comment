@@ -54,7 +54,10 @@ uvicorn main:app –reload
 ### 2.Khởi động giao diện
 - Ứng dụng sẽ được khởi động trên cửa sổ trình duyệt mặc định tại địa chỉ localhost:3000
  ![image](https://github.com/hausura/show_read_me/blob/main/spam_0.png)
+<p align="center">
 Giao diện ứng dụng khi khởi động
+</p>
+
 
 ### 3.Nhúng ID Youtube
 - ID được lấy từ đường dẫn chính của Video trên nền tảng Youtube, nhập vào trường nhập liệu, lựa chọn mô hình muốn sử dụng, sau đó nhấn “Embed Video”. Video sẽ được nhúng và hiển thị tại giao diện ứng dụng cùng các bình luận phía dưới. 
@@ -66,12 +69,18 @@ Giao diện ứng dụng khi khởi động
  - Dựa trên kết quả của mô hình được hiển thị dưới mỗi bình luận, các bình luận được cho là spam sẽ bị làm mờ.
    
  ![image](https://github.com/hausura/show_read_me/blob/main/spam%202.png)
+ <p align="center">
                                       Kết quả dự đoán của mô hình đã chọn 
+</p>
+
 
                                       
  - Người dùng có thể sử dụng mô hình đã lựa chọn để kiểm tra spam bằng cách thêm bình luận vào phần “Add a comment…”, sau đó nhấn “Comment”. Ứng dụng sẽ nhận bình luận và trả về kết quả dự đoán dựa trên mô hình dự đoán mà người dùng đã lựa chọn trước đó. 
  ![image](https://github.com/hausura/show_read_me/blob/main/spam3.png)
+ <p align="center">
                                       Kết quả dự đoán của mô hình cho bình luận của người dùng
+</p>
+
 
 
 
