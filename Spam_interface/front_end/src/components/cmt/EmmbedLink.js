@@ -15,7 +15,7 @@ function YoutubeEmbed({ selectedCheckbox, videoId }) {
   const handleGetComments = async () => {
     try {
       const commentResponse = await fetch(
-        `https://www.googleapis.com/youtube/v3/commentThreads?key=${API_KEY}&textFormat=plainText&part=snippet&videoId=${videoId}&maxResults=100`
+        `https://www.googleapis.com/youtube/v3/commentThreads?key=${API_KEY}&textFormat=plainText&part=snippet&videoId=${videoId}&maxResults=200`
       );
       const commentData = await commentResponse.json();
 
@@ -103,7 +103,7 @@ function YoutubeEmbed({ selectedCheckbox, videoId }) {
     <div>
       {comments.length > 0 && (
         <div style={{ border: "40px solid #212121" }}>
-          <h2>Comments</h2>
+          <h2>Comments({comments.length})</h2>
 
           <section id="comments" className="comments">
             <div className="comment-section">
