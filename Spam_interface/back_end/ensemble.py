@@ -18,7 +18,7 @@ import os
 
 
 
-nltk.download('stopwords')
+# nltk.download('stopwords')
 
 
 # Tiền xử lí

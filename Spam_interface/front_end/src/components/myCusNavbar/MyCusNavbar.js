@@ -28,7 +28,7 @@ const MyCusNavbar = () => {
   };
   const checkboxes = [
     { id: 1, label: "LSTM - CNN" },
-    { id: 2, label: "Ensemble" },
+    { id: 2, label: "SVM" },
   ];
   // useEffect({}, [localStorage]);
 

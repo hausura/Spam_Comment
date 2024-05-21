@@ -85,7 +85,7 @@ function YoutubeEmbed({ selectedCheckbox, videoId }) {
         commentTexts
       );
       const response_ensemble = await axios.post(
-        "http://127.0.0.1:8000/predict_ensemble",
+        "http://127.0.0.1:8000/predict_SVM",
         commentTexts
       );
 
@@ -125,6 +125,7 @@ function YoutubeEmbed({ selectedCheckbox, videoId }) {
                   backgroundColor: "#f0821b",
                   color: "black",
                 }}
+                type="submit"
                 onClick={handleCommentSubmit}
                 className="youtube-button"
               >

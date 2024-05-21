@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from helper import helper;
 from ensemble import predict_value;
+from model import predict_value_SVM
 
 app = FastAPI()
 
@@ -62,6 +63,14 @@ async def predict(data: list[str]):
         return {'result': []}
     else:
         result = predict_value(data)  # Gọi hàm svm_model với dữ liệu được truyền vào từ request
+        return {"result": result}  # Trả về kết quả từ hàm svm_model
+
+@app.post("/predict_SVM")
+async def predict(data: list[str]):
+    if data == None or len(data)==0:
+        return {'result': []}
+    else:
+        result = predict_value_SVM(data)  # Gọi hàm svm_model với dữ liệu được truyền vào từ request
         return {"result": result}  # Trả về kết quả từ hàm svm_model
 
 # predict_value
