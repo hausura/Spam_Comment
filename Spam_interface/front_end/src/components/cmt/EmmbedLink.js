@@ -150,7 +150,9 @@ function YoutubeEmbed({ selectedCheckbox, videoId }) {
                     <p>{comment.text}</p>
                     {(results[index] >= 0.5 && selectedCheckbox === 1) ||
                     (results1[index] >= 0.5 && selectedCheckbox === 2) ? (
+                      <div>
                       <i className="fas fa-exclamation-circle alert-icon"></i>
+                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>                      </div>
                     ) : (
                       <></>
                     )}
