@@ -8,4 +8,6 @@ To get scrawl Data
 pip main.py
 ```
 Then:
-- output file is output.csv
+- Output file is output.csv.
+- After that manual data labeling.
+- To avoid Copyright Infringement, the manual labled data isn't public 
