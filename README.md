@@ -69,6 +69,7 @@ docker-compose up --build
 <p align="center">
 Giao diện Docker
 </p>
+
 ### 2.Khởi động giao diện
 - Ứng dụng sẽ được khởi động trên cửa sổ trình duyệt mặc định tại địa chỉ localhost:3000
  ![image](https://github.com/hausura/show_read_me/blob/main/spam_0.png)
