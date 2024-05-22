@@ -1,8 +1,11 @@
-﻿# Spam_Comment
+﻿# Playwright-Demo & Rule
 
 ### Scrawl Data
 
-To get scrawl Data
+#### Main objective of this session:
+##### To get scrawl Data
+
+##### Step:
 - Change directory: Spam_Comment/Playwright-Demo/
 ```
 pip main.py
